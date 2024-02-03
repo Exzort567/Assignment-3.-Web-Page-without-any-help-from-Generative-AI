@@ -1,0 +1,199 @@
+header {
+    background-color: #00387d;
+    margin: 0;
+    padding: 10px; 
+}
+
+body {
+    margin: 0;
+}
+body a{
+    text-decoration: none;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.logo img {
+    margin-right: 10px; 
+}
+
+.logo-text {
+    color: black;
+    font-size:x-large;
+}
+#first-section {
+    background-image: url(https://www.bisuclarin.edu.ph/wp-content/uploads/2022/04/campus-scaled.jpg);
+    height: 250px;
+    background-size: cover; 
+    background-position: center; 
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+#first-section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: #002147; 
+    opacity: 0.5;
+    z-index: 0.5; 
+}
+
+#first-section .home-section {
+    position: relative;
+   
+    color: white; 
+    text-align: center;
+}
+.enroll{
+    position: absolute;
+    bottom: 80px;
+    right: 32%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+h4{
+    position: absolute;
+    bottom: 140px;
+    right: 25%; 
+   
+    margin-bottom: 15px;
+    border: none;
+    padding: 0;
+    color: #fff;
+    font-size: 46px;
+  
+}
+.enroll-button {
+    position: absolute;
+    bottom: 20px; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    transition: all 0.3s ease 0s;
+    background: #aa0000;
+    color: #fff;
+    font-size: 15px;
+    padding: 12px 30px;
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.enroll-button:hover{
+    background: #007acc;
+}
+
+#contact li {
+    clear: inherit;
+    font-size: 14px;
+    line-height: 1.75;
+    list-style: outside none none;
+    text-align: left;
+    padding: 9px 10px;
+    color: #fff;
+}
+.navlist{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    margin-left: -100px;
+    
+}
+.navlist a{
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: 800;
+    text-decoration: none;
+    margin-left: 40px;
+   
+}
+.navlist a:hover{
+    color: #2200ff;
+    text-shadow: 10px 3px 20px #3300ff, -2px 1px 30px #6600ff;
+}
+.about-section{
+    padding: 50px;
+}
+
+.bisu_pic img{
+    margin-bottom: 30px;
+    margin-top: -290px;
+    border-radius: 28px;
+    border: #002147;
+    border-inline: solid 7px;
+   
+    
+}
+.about_message{
+    
+    font-size: 2rem;
+    margin-left: 20px;
+    width: 55%;
+}
+
+.news {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+
+.news-post {
+    margin-bottom: 20px;
+}
+
+
+.news-content {
+    margin-top: 10px;
+}
+
+
+.news-content h3 {
+    margin-bottom: 10px;
+}
+
+
+.news-info .posted-on p {
+    font-style: italic;
+    color: #888;
+}
+
+
+.news-post img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+}
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    width: 300px;
+}
+.gallery img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(18, 12, 58, 0.1);
+}
